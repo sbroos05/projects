@@ -1,50 +1,52 @@
 {
-  "Industriële-loopband": {
-    "Titel": "Ontwikkeling van Industriële Loopband",
-    "Stad": "Aarschot",
-    "Datum": "29-03-2023",
-    "Tussentitel": "Automatisatie in de Productielijn",
-    "Uitleg": "Dit project betrof het ontwerpen en bouwen van een industriële loopband voor transport van goederen, met sensoren voor snelheidsregeling en veiligheid.",
-    "Image": "assets/img/portfolio/industriële-loopband.png"
-  },
-  "Full-Stack-dev": {
-    "Titel": "Full-Stack Webapplicatie",
-    "Stad": "Gent",
-    "Datum": "2022-11-10",
-    "Tussentitel": "Frontend & Backend in Harmonie",
-    "Uitleg": "Een volledige webapplicatie gebouwd met React, Node.js en MongoDB. De app ondersteunt gebruikersauthenticatie, CRUD-functies en responsive design.",
-    "Image": "fullstack_webapp.png"
-  },
-  "Iot-project": {
-    "Titel": "IoT Monitoring Systeem",
-    "Stad": "Brussel",
-    "Datum": "2023-07-01",
-    "Tussentitel": "Slimme Sensoren en Cloud Integratie",
-    "Uitleg": "Een systeem dat omgevingsdata verzamelt via IoT-sensoren en deze in realtime visualiseert via een dashboard. Data werd opgeslagen in een cloud database.",
-    "Image": "iot_monitoring.jpg"
-  },
-  "zwembad-automatisatie": {
-    "Titel": "Zwembad Automatisatie Systeem",
-    "Stad": "Leuven",
-    "Datum": "2021-06-20",
-    "Tussentitel": "Efficiënt Waterbeheer",
-    "Uitleg": "Automatisatie van zwembadonderhoud, inclusief pH-regeling, temperatuurcontrole en pompsturing via een mobiele app.",
-    "Image": "zwembad_auto.jpg"
-  },
-  "localhoster": {
-    "Titel": "Localhoster Platform",
-    "Stad": "Mechelen",
-    "Datum": "2022-04-18",
-    "Tussentitel": "Webhosting op Lokale Servers",
-    "Uitleg": "Een tool om lokale ontwikkelomgevingen te beheren met eenvoudige toegang tot projecten via custom domeinnamen en configuratie via een GUI.",
-    "Image": "localhoster_ui.png"
-  },
-  "docker-kubernetes": {
-    "Titel": "Container Orchestration met Docker & Kubernetes",
-    "Stad": "Hasselt",
-    "Datum": "2023-12-05",
-    "Tussentitel": "Schalbare Microservices",
-    "Uitleg": "Implementatie van een schaalbaar systeem met meerdere microservices, beheerd via Docker containers en georkestreerd met Kubernetes op een cloudplatform.",
-    "Image": "docker_kube_cluster.png"
+  "projects": {
+    "Industriële-loopband": {
+      "Titel": "Ontwikkeling van Industriële Loopband",
+      "Stad": "Aarschot",
+      "Datum": "29-03-2023",
+      "Tussentitel": "Automatisatie in de Productielijn",
+      "Uitleg": "Dit project betrof het ontwerpen en bouwen van een industriële loopband voor transport van goederen, met sensoren voor snelheidsregeling en veiligheid.",
+      "Image": "assets/img/portfolio/industriële-loopband.png"
+    },
+    "Full-Stack-dev": {
+      "Titel": "Full-Stack Webapplicatie",
+      "Stad": "Gent",
+      "Datum": "2022-11-10",
+      "Tussentitel": "Frontend & Backend in Harmonie",
+      "Uitleg": "Een volledige webapplicatie gebouwd met React, Node.js en MongoDB. De app ondersteunt gebruikersauthenticatie, CRUD-functies en responsive design.",
+      "Image": "fullstack_webapp.png"
+    },
+    "Iot-project": {
+      "Titel": "IoT Monitoring Systeem",
+      "Stad": "Brussel",
+      "Datum": "2023-07-01",
+      "Tussentitel": "Slimme Sensoren en Cloud Integratie",
+      "Uitleg": "Een systeem dat omgevingsdata verzamelt via IoT-sensoren en deze in realtime visualiseert via een dashboard. Data werd opgeslagen in een cloud database.",
+      "Image": "iot_monitoring.jpg"
+    },
+    "zwembad-automatisatie": {
+      "Titel": "Zwembad Automatisatie Systeem",
+      "Stad": "Leuven",
+      "Datum": "2021-06-20",
+      "Tussentitel": "Efficiënt Waterbeheer",
+      "Uitleg": "Automatisatie van zwembadonderhoud, inclusief pH-regeling, temperatuurcontrole en pompsturing via een mobiele app.",
+      "Image": "zwembad_auto.jpg"
+    },
+    "localhoster": {
+      "Titel": "Localhoster Platform",
+      "Stad": "Mechelen",
+      "Datum": "2022-04-18",
+      "Tussentitel": "Webhosting op Lokale Servers",
+      "Uitleg": "Een tool om lokale ontwikkelomgevingen te beheren met eenvoudige toegang tot projecten via custom domeinnamen en configuratie via een GUI.",
+      "Image": "localhoster_ui.png"
+    },
+    "docker-kubernetes": {
+      "Titel": "Container Orchestration met Docker & Kubernetes",
+      "Stad": "Hasselt",
+      "Datum": "2023-12-05",
+      "Tussentitel": "Schalbare Microservices",
+      "Uitleg": "Implementatie van een schaalbaar systeem met meerdere microservices, beheerd via Docker containers en georkestreerd met Kubernetes op een cloudplatform.",
+      "Image": "docker_kube_cluster.png"
+    }
   }
 }

@@ -104,10 +104,10 @@
                     "learnings": "Teamwork, ansible, terraform, metallb, cacti, loki, prometheus, grafana"
                 },
                 {
-                    "who": "Sander Broos + 5 studenten",
-                    "what": "Lokaal webhostingplatform",
-                    "where": "Thomas More, Geel",
-                    "why": "Schaalbare en veilige webhosting opzetten"
+                    "Who": "Sander Broos + 5 studenten",
+                    "What": "Lokaal webhostingplatform",
+                    "Where": "Thomas More, Geel",
+                    "Why": "Schaalbare en veilige webhosting opzetten"
                 }
             ]
         },

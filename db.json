@@ -4,7 +4,7 @@
       "name": "Industriële-loopband",
       "Info": [
         {
-          "Titel": "Ontwikkeling van Industriële Loopband",
+          "Titel": "Ontwikkeling 'Industriële Loopband'",
           "Stad": "Aarschot",
           "Datum": "29-03-2023",
           "Image": "industriële-loopband.png"
@@ -13,24 +13,24 @@
       "Details": [
         {
           "Tussentitel": "Automatisatie in de Productielijn",
-          "Uitleg": "Dit project betrof het ontwerpen en bouwen van een industriële loopband voor transport van goederen, met sensoren voor snelheidsregeling en veiligheid."
+          "Uitleg": "Dit project omvatte de ontwikkeling van een industriële loopband met luchtdruk- en PLC-technologie. Kleurensensoren bepaalden de richting van blokjes op de band. Na het verplaatsen naar de juiste locatie, werd het blokje met een luchtdrukstamper in het juiste bakje geplaatst. Het proces werd volledig geautomatiseerd."
         }
       ]
     },
     {
-      "name": "Full-Stack-dev",
+      "name": "Webdesign (Front- and backend)",
       "Info": [
         {
           "Titel": "Full-Stack Webapplicatie",
-          "Stad": "Gent",
-          "Datum": "2022-11-10",
+          "Stad": "Geel",
+          "Datum": "15 april 2024",
           "Image": "fullstack_webapp.png"
         }
       ],
       "Details": [
         {
-          "Tussentitel": "Frontend & Backend in Harmonie",
-          "Uitleg": "Een volledige webapplicatie gebouwd met React, Node.js en MongoDB. De app ondersteunt gebruikersauthenticatie, CRUD-functies en responsive design."
+          "Tussentitel": "Frontend & Backend in Harmoni",
+          "Uitleg": "Een volledige webapplicatie gebouwd met HTML, CSS en JS + Python and mySQL. De webapp stelt het bedrijf in het kort voor, toont seizoensproducten, updates op de werkvloer en geeft de mogelijkheid om jezelf in te schrijven om zelf verse groenten te gaan plukken en/of bestellingen uit te voeren."
         }
       ]
     },
@@ -38,16 +38,16 @@
       "name": "Iot-project",
       "Info": [
         {
-          "Titel": "IoT Monitoring Systeem",
-          "Stad": "Brussel",
-          "Datum": "2023-07-01",
+          "Titel": "IoT (Donker/LICHT)",
+          "Stad": "Geel",
+          "Datum": "15 april 2024",
           "Image": "iot_monitoring.jpg"
         }
       ],
       "Details": [
         {
-          "Tussentitel": "Slimme Sensoren en Cloud Integratie",
-          "Uitleg": "Een systeem dat omgevingsdata verzamelt via IoT-sensoren en deze in realtime visualiseert via een dashboard. Data werd opgeslagen in een cloud database."
+          "Tussentitel": "IOT slim rolluiken systeem",
+          "Uitleg": "Dit project had als doel een slim IoT-systeem te bouwen dat automatisch de lichtsterkte en temperatuur regelt op basis van vooraf ingestelde waarden. Hiervoor werden een BH1750-lichtsensor en een BMP280-temperatuursensor via I2C verbonden met een microcontroller. De gemeten waarden werden weergegeven op een online dashboard zoals ThingSpeak, en gebruikers konden via GPIO-ingangen doelwaarden instellen voor licht en temperatuur. Het systeem stuurde vervolgens automatisch actuatoren aan (bijv. een PWM-gestuurde LED of een verwarmingselement) om deze doelen te bereiken. Cloudcommunicatie verliep via MQTT en er werd een gesloten regelkring gerealiseerd voor volledig autonome omgevingsregeling."
         }
       ]
     },
@@ -63,25 +63,25 @@
       ],
       "Details": [
         {
-          "Tussentitel": "Efficiënt Waterbeheer",
-          "Uitleg": "Automatisatie van zwembadonderhoud, inclusief pH-regeling, temperatuurcontrole en pompsturing via een mobiele app."
+          "Tussentitel": "PHmeten + Supplementen toevoegen",
+          "Uitleg": "Dit project draaide rond de automatisering van pH-metingen en -regulatie in een zwembad, om zo tijd te besparen en de waterkwaliteit stabiel te houden. Er werd gekozen voor een systeem op basis van een Raspberry Pi die pH- en chloorsensoren aanstuurt en indien nodig chemicaliën doseert. De meetresultaten worden weergegeven op een gebruiksvriendelijk dashboard met historische datalogging. Daarnaast werd er ook aandacht besteed aan beveiliging, prestaties en betrouwbaarheid via functionele, niet-functionele en recovery-tests."
         }
       ]
     },
     {
-      "name": "localhoster",
+      "name": "Localhoster",
       "Info": [
         {
-          "Titel": "Localhoster Platform",
-          "Stad": "Mechelen",
-          "Datum": "2022-04-18",
+          "Titel": "Localhoster",
+          "Stad": "Geel",
+          "Datum": "1-02-2025",
           "Image": "localhoster_ui.png"
         }
       ],
       "Details": [
         {
           "Tussentitel": "Webhosting op Lokale Servers",
-          "Uitleg": "Een tool om lokale ontwikkelomgevingen te beheren met eenvoudige toegang tot projecten via custom domeinnamen en configuratie via een GUI."
+          "Uitleg": "Dit project, genaamd localhoster.be, draait rond het opzetten van een eigen webhostingplatform met Kubernetes als fundament. De bedoeling is om een schaalbare en multi-tenant omgeving te bouwen waarin meerdere gebruikers applicaties kunnen hosten. Automatisatie speelt een sleutelrol in het beheer en de beveiliging van het platform, onder andere via scripting en tools zoals Ansible. Daarnaast zijn minstens 20 CIS Controls geïmplementeerd, waaronder kwetsbaarheidsscans, firewallbeheer, encryptie in transit en geautomatiseerde back-ups, om het platform veilig en betrouwbaar te houden."
         }
       ]
     },
@@ -90,15 +90,15 @@
       "Info": [
         {
           "Titel": "Container Orchestration met Docker & Kubernetes",
-          "Stad": "Hasselt",
-          "Datum": "2023-12-05",
+          "Stad": "Geel",
+          "Datum": "11-12-2024",
           "Image": "docker_kube_cluster.png"
         }
       ],
       "Details": [
         {
           "Tussentitel": "Schalbare Microservices",
-          "Uitleg": "Implementatie van een schaalbaar systeem met meerdere microservices, beheerd via Docker containers en georkestreerd met Kubernetes op een cloudplatform."
+          "Uitleg": "De milestone was bedoeld om een webstack, bestaande uit een frontend, backend en database, te deployen op een zelf opgezet Kubernetes-cluster. De applicatie moest gebaseerd zijn op Docker-images en draaien in aparte containers. De frontend toonde gegevens uit de backend en werd automatisch aangepast bij wijzigingen."
         }
       ]
     }

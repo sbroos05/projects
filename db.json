@@ -1,106 +1,134 @@
 {
-  "projects": [
-    {
-      "name": "Industriële-loopband",
-      "Info": [
+    "projects": [
         {
-          "Titel": "Ontwikkeling 'Industriële Loopband'",
-          "Stad": "Aarschot",
-          "Datum": "29-03-2023",
-          "Image": "industriële-loopband.png"
-        }
-      ],
-      "Details": [
+            "name": "Industriële-loopband",
+            "Info": [
+                {
+                    "Titel": "Ontwikkeling 'Industriële Loopband'",
+                    "Stad": "Aarschot",
+                    "Datum": "29-03-2023",
+                    "Image": "industriële-loopband.png"
+                }
+            ],
+            "Details": [
+                {
+                    "Tussentitel": "Automatisatie in de Productielijn",
+                    "Uitleg": "Dit project omvatte de ontwikkeling van een industriële loopband met luchtdruk- en PLC-technologie. Kleurensensoren bepaalden de richting van blokjes op de band. Na het verplaatsen naar de juiste locatie, werd het blokje met een luchtdrukstamper in het juiste bakje geplaatst. Het proces werd volledig geautomatiseerd."
+                }
+            ]
+        },
+
         {
-          "Tussentitel": "Automatisatie in de Productielijn",
-          "Uitleg": "Dit project omvatte de ontwikkeling van een industriële loopband met luchtdruk- en PLC-technologie. Kleurensensoren bepaalden de richting van blokjes op de band. Na het verplaatsen naar de juiste locatie, werd het blokje met een luchtdrukstamper in het juiste bakje geplaatst. Het proces werd volledig geautomatiseerd."
-        }
-      ]
-    },
-    {
-      "name": "Webdesign (Front- and backend)",
-      "Info": [
+            "name": "Webdesign (Front- and backend)",
+            "Info": [
+                {
+                    "Titel": "Full-Stack Webapplicatie",
+                    "Stad": "Geel",
+                    "Datum": "15 april 2024",
+                    "Image": "fullstack_webapp.png"
+                }
+            ],
+            "Details": [
+                {
+                    "Tussentitel": "Frontend & Backend in Harmoni",
+                    "Uitleg": "Een volledige webapplicatie gebouwd met HTML, CSS en JS + Python and mySQL. De webapp stelt het bedrijf in het kort voor, toont seizoensproducten, updates op de werkvloer en geeft de mogelijkheid om jezelf in te schrijven om zelf verse groenten te gaan plukken en/of bestellingen uit te voeren."
+                }
+            ]
+        },
+
         {
-          "Titel": "Full-Stack Webapplicatie",
-          "Stad": "Geel",
-          "Datum": "15 april 2024",
-          "Image": "fullstack_webapp.png"
-        }
-      ],
-      "Details": [
+            "name": "Iot-project",
+            "Info": [
+                {
+                    "Titel": "IoT (Donker/LICHT)",
+                    "Stad": "Geel",
+                    "Datum": "15 april 2024",
+                    "Image": "iot_monitoring.jpg"
+                }
+            ],
+            "Details": [
+                {
+                    "Tussentitel": "IOT slim rolluiken systeem",
+                    "Uitleg": "Dit project had als doel een slim IoT-systeem te bouwen dat automatisch de lichtsterkte en temperatuur regelt op basis van vooraf ingestelde waarden. Hiervoor werden een BH1750-lichtsensor en een BMP280-temperatuursensor via I2C verbonden met een microcontroller. De gemeten waarden werden weergegeven op een online dashboard zoals ThingSpeak, en gebruikers konden via GPIO-ingangen doelwaarden instellen voor licht en temperatuur. Het systeem stuurde vervolgens automatisch actuatoren aan (bijv. een PWM-gestuurde LED of een verwarmingselement) om deze doelen te bereiken. Cloudcommunicatie verliep via MQTT en er werd een gesloten regelkring gerealiseerd voor volledig autonome omgevingsregeling."
+                }
+            ]
+        },
+
         {
-          "Tussentitel": "Frontend & Backend in Harmoni",
-          "Uitleg": "Een volledige webapplicatie gebouwd met HTML, CSS en JS + Python and mySQL. De webapp stelt het bedrijf in het kort voor, toont seizoensproducten, updates op de werkvloer en geeft de mogelijkheid om jezelf in te schrijven om zelf verse groenten te gaan plukken en/of bestellingen uit te voeren."
-        }
-      ]
-    },
-    {
-      "name": "Iot-project",
-      "Info": [
+            "name": "zwembad-automatisatie",
+            "Info": [
+              {
+                "Titel": "Zwembad Automatisatie Systeem",
+                "Stad": "Geel",
+                "Datum": "20-12-2024",
+                "Image": "zwembad_auto.jpg"
+              }
+            ],
+            "Details": [
+              {
+                "Tussentitel": "Projectbeschrijving",
+                "Uitleg": "Dit project had als doel het automatiseren van zwembadbeheer met behulp van sensoren en een dashboard."
+              },
+              {
+                "Subject": "SKILL2 Semester 1 - Groepsproject",
+                "learnings": "Sensorintegratie, datavisualisatie en probleemoplossend werken",
+                "realisaties": "Computer die PH-metingen uitvoert en adhv de waarden, een bepaalde hoeveelheid chemicaliën toevoegt"
+              },
+              {
+                "Who": "Sander Broos + 5 studenten",
+                "What": "Automatisatie van zwembadwaterbeheer",
+                "Where": "Thuisopstelling",
+                "Why": "Tijdswinst en kwaliteitsgarantie door digitalisering"
+              }
+            ]
+        },
+       
         {
-          "Titel": "IoT (Donker/LICHT)",
-          "Stad": "Geel",
-          "Datum": "15 april 2024",
-          "Image": "iot_monitoring.jpg"
-        }
-      ],
-      "Details": [
+            "name": "localhoster",
+            "Info": [
+                {
+                    "Titel": "Localhoster",
+                    "Stad": "Geel",
+                    "Datum": "30-04-2025",
+                    "Image": "localhoster_ui.png"
+                }
+            ],
+            "Details": [
+                {
+                    "Tussentitel": "Webhosting platform op eigen Servers",
+                    "Uitleg": "Dit project draait om het opzetten van een lokaal webhostingplatform met Kubernetes als fundament. Het platform is ontworpen om meerdere gebruikers applicaties te hosten in een schaalbare en veilige omgeving. Automatisering via Ansible en gebruik van verschillende beveiligingsmaatregelen zoals kwetsbaarheidsscans en encryptie zorgen voor een veilig en betrouwbaar platform."
+                },
+                {
+                    "subject": "Webhosting - SKILL2 (Semester2)",
+                    "realisaties": "Zo'n veilig mogelijk, geautomatiseerd en geschaald webhosting platform opzetten, waar klanten hun eigen websites op kunnen hosten",
+                    "learnings": "Teamwork, ansible, terraform, metallb, cacti, loki, prometheus, grafana"
+                },
+                {
+                    "who": "Sander Broos + 5 studenten",
+                    "what": "Lokaal webhostingplatform",
+                    "where": "Thomas More, Geel",
+                    "why": "Schaalbare en veilige webhosting opzetten"
+                }
+            ]
+        },
+
         {
-          "Tussentitel": "IOT slim rolluiken systeem",
-          "Uitleg": "Dit project had als doel een slim IoT-systeem te bouwen dat automatisch de lichtsterkte en temperatuur regelt op basis van vooraf ingestelde waarden. Hiervoor werden een BH1750-lichtsensor en een BMP280-temperatuursensor via I2C verbonden met een microcontroller. De gemeten waarden werden weergegeven op een online dashboard zoals ThingSpeak, en gebruikers konden via GPIO-ingangen doelwaarden instellen voor licht en temperatuur. Het systeem stuurde vervolgens automatisch actuatoren aan (bijv. een PWM-gestuurde LED of een verwarmingselement) om deze doelen te bereiken. Cloudcommunicatie verliep via MQTT en er werd een gesloten regelkring gerealiseerd voor volledig autonome omgevingsregeling."
+            "name": "docker-kubernetes",
+            "Info": [
+                {
+                    "Titel": "Container Orchestration met Docker & Kubernetes",
+                    "Stad": "Geel",
+                    "Datum": "11-12-2024",
+                    "Image": "docker_kube_cluster.png"
+                }
+            ],
+            "Details": [
+                {
+                    "Tussentitel": "Schaalbare Microservices",
+                    "Uitleg": "Dit project was gericht op het opzetten van een webstack met een frontend, backend en database, allemaal gedraaid op een Kubernetes-cluster. De microservices zijn geïsoleerd in Docker-containers. Het doel was om een schaalbare en flexibele omgeving te creëren die eenvoudig kan worden aangepast en uitgebreid."
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "zwembad-automatisatie",
-      "Info": [
-        {
-          "Titel": "Zwembad Automatisatie Systeem",
-          "Stad": "Leuven",
-          "Datum": "2021-06-20",
-          "Image": "zwembad_auto.jpg"
-        }
-      ],
-      "Details": [
-        {
-          "Tussentitel": "PHmeten + Supplementen toevoegen",
-          "Uitleg": "Dit project draaide rond de automatisering van pH-metingen en -regulatie in een zwembad, om zo tijd te besparen en de waterkwaliteit stabiel te houden. Er werd gekozen voor een systeem op basis van een Raspberry Pi die pH- en chloorsensoren aanstuurt en indien nodig chemicaliën doseert. De meetresultaten worden weergegeven op een gebruiksvriendelijk dashboard met historische datalogging. Daarnaast werd er ook aandacht besteed aan beveiliging, prestaties en betrouwbaarheid via functionele, niet-functionele en recovery-tests."
-        }
-      ]
-    },
-    {
-      "name": "Localhoster",
-      "Info": [
-        {
-          "Titel": "Localhoster",
-          "Stad": "Geel",
-          "Datum": "1-02-2025",
-          "Image": "localhoster_ui.png"
-        }
-      ],
-      "Details": [
-        {
-          "Tussentitel": "Webhosting op Lokale Servers",
-          "Uitleg": "Dit project, genaamd localhoster.be, draait rond het opzetten van een eigen webhostingplatform met Kubernetes als fundament. De bedoeling is om een schaalbare en multi-tenant omgeving te bouwen waarin meerdere gebruikers applicaties kunnen hosten. Automatisatie speelt een sleutelrol in het beheer en de beveiliging van het platform, onder andere via scripting en tools zoals Ansible. Daarnaast zijn minstens 20 CIS Controls geïmplementeerd, waaronder kwetsbaarheidsscans, firewallbeheer, encryptie in transit en geautomatiseerde back-ups, om het platform veilig en betrouwbaar te houden."
-        }
-      ]
-    },
-    {
-      "name": "docker-kubernetes",
-      "Info": [
-        {
-          "Titel": "Container Orchestration met Docker & Kubernetes",
-          "Stad": "Geel",
-          "Datum": "11-12-2024",
-          "Image": "docker_kube_cluster.png"
-        }
-      ],
-      "Details": [
-        {
-          "Tussentitel": "Schalbare Microservices",
-          "Uitleg": "De milestone was bedoeld om een webstack, bestaande uit een frontend, backend en database, te deployen op een zelf opgezet Kubernetes-cluster. De applicatie moest gebaseerd zijn op Docker-images en draaien in aparte containers. De frontend toonde gegevens uit de backend en werd automatisch aangepast bij wijzigingen."
-        }
-      ]
-    }
-  ]
+    ]
 }
+
